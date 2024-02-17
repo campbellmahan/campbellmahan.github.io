@@ -118,7 +118,7 @@ html {
   width: 33em;
   height: 22em;
   margin: 5em auto;
-  border: 0.2em solid black;
+  border: 0.2em solid purple;
   border-radius: 1.5em;
 }
 
@@ -137,7 +137,7 @@ html {
   width: 50em;
   background-color: pink;
   padding: 1em;
-  border: .2em solid black; 
+  border: .2em solid purple; 
   border-radius: 1.5em;
   }
 
