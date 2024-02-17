@@ -67,7 +67,7 @@ body {
 
    article{
     padding-left: 2em;
-    height: 14em;
+    height: 15em;
     background-color: rgba(0,0,0,0.35); 
     border: 5em solid black transparent;
     color: white
@@ -92,7 +92,7 @@ body {
    }
 
 
-   /* General page styles - put these straight into your stylesheet */
+   /* Campbell card */
 
 body {
   margin: 0;
@@ -114,8 +114,8 @@ html {
 /* Rulesets to be matched up with selectors */
 
 .card2{
-  background-color: red;
-  width: 35em;
+  background-color: pink;
+  width: 33em;
   height: 22em;
   margin: 5em auto;
   border: 0.2em solid black;
@@ -123,19 +123,19 @@ html {
 }
 
 .card2 article img{
-  color: rgba(255,255,255,.75);
+  color: purple;
   font-size: 0.938em;
   padding-left: 1em;
   padding-top: 1em;
   max-height: 100%;
-  float: right; 
+  float: right;
 }
 
  /* styles specific to the setup of the card container */
 
  .card2{ 
   width: 50em;
-  background-color: red;
+  background-color: pink;
   padding: 1em;
   border: .2em solid black; 
   border-radius: 1.5em;
@@ -161,10 +161,9 @@ html {
 
  article{
   padding-left: 2em;
-  height: 12em;
+  height: 14em;
   background-color: rgba(0,0,0,0.35); 
   border: 5em solid black transparent;
-  color: white
  }
 
  h2{
