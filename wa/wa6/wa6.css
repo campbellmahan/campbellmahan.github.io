@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+  }
+  
+html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+
+.image img{
+    size: 20px;
+}
+
+.game{
+    font: 20px white;
+    background-color: white;
+    border-top: 2mm solid navy;
+    border-bottom: 2mm solid red;
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+}
+
+
+.score{
+    font: 30px white;
+
+}
