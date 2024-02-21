@@ -9,26 +9,76 @@ html {
   }
 
 .image img{
-    size: 20px;
+    size: 10px;
 }
 
 .game{
+    position: absolute;
+    top: 12mm;
+    right: 20mm;
+    width: 400px;
+    height: 50px;
+    text-align: center;
     font: 20px white;
     background-color: white;
     border-top: 2mm solid navy;
     border-bottom: 2mm solid red;
-    position: absolute;
-    top: 12mm;
-    left: 20mm;
-    width: 400px;
-    height: 50px;
-    text-align: center;
     padding: 10px 0;
     color: black;
 }
 
+.nyy{
+  position: absolute;
+  top: 10mm;
+  left: 20mm;
+  width: 45px;
+  height: 30px;
+  font: 20px white;
+  line-height: 0px;
+  background-color: navy;
+  border: .5mm solid white;
+}
+
+.sox{
+  position: absolute;
+  top: 20mm;
+  left: 20mm;
+  width: 45px;
+  height: 35px;
+  text-align: center;
+  font: 20px white;
+  line-height: 1.5px;
+  background-color: red;
+  border: .5mm solid white;
+}
 
 .score{
-    font: 30px white;
+  position: absolute;
+  top: 12.5mm;
+  left: 35mm;
+  text-align: center;
+  font: 20px white;
+  line-height: 1px;
+}
 
+
+.outs{
+  position: absolute;
+  top: 12mm;
+  left: 70mm;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font: 30px white;
+  background-color: pink;
+  border: 1mm solid white;
+
+
+
+
+}
+
+
+.bases{
+  font: 30px white;
 }
