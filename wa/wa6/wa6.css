@@ -3,7 +3,7 @@ body {
   }
   
 html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-family: Arial, 'sans serif';
     font-size: 10px;
     background-color: #ccc;
   }
@@ -32,11 +32,12 @@ html {
   top: 10mm;
   left: 20mm;
   width: 45px;
-  height: 30px;
+  height: 35px;
+  text-align: center;
   font: 20px white;
   line-height: 0px;
   background-color: navy;
-  border: .5mm solid white;
+  border: .5mm solid black;
 }
 
 .sox{
@@ -49,36 +50,83 @@ html {
   font: 20px white;
   line-height: 1.5px;
   background-color: red;
-  border: .5mm solid white;
+  border: .5mm solid black;
 }
 
-.score{
+.nyyscore{
   position: absolute;
-  top: 12.5mm;
-  left: 35mm;
+  top: 10mm;
+  left: 32.5mm;
+  width: 45px;
+  height: 35px;
   text-align: center;
   font: 20px white;
-  line-height: 1px;
+  line-height: 0px;
+  background-color: white;
+  border: .5mm solid black;
 }
 
+.soxscore{
+  position: absolute;
+  top: 20mm;
+  left: 32.5mm;
+  width: 45px;
+  height: 35px;
+  text-align: center;
+  font: 20px white;
+  line-height: 1.5px;
+  background-color: white;
+  border: .5mm solid black;
+}
 
 .outs{
   position: absolute;
-  top: 12mm;
-  left: 70mm;
+  top: 10mm;
+  left: 45mm;
   width: 100px;
-  height: 50px;
+  height: 73px;
   text-align: center;
-  font: 30px white;
-  background-color: pink;
-  border: 1mm solid white;
-
-
-
-
+  font: 20px white;
+  line-height: 1.5mm;
+  background-color: white;
+  border: .5mm solid black;
 }
 
+.homerun{
+  position: absolute;
+  top: 30mm;
+  left: 20mm;
+  width: 195px;
+  height: 35px;
+  text-align: center;
+  font: 20px white;
+  line-height: 1.5px;
+  background-color: white;
+  border: .5mm solid black;
+}
+
+.mph{
+  position: absolute;
+  top: 30mm;
+  left: 72mm;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  font: 20px white;
+  line-height: 1.5px;
+  background-color: white;
+  border: .5mm solid black;
+}
 
 .bases{
-  font: 30px white;
+  position: absolute;
+  top: 10mm;
+  left: 72mm;
+  width: 100px;
+  height: 73px;
+  text-align: center;
+  font: 20px white;
+  line-height: 1.5px;
+  background-color: white;
+  border: .5mm solid black;
 }
