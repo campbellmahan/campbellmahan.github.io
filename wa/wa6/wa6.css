@@ -1,15 +1,6 @@
-body {
-    margin: 0;
-  }
-  
-html {
-    font-family: Arial, 'sans serif';
-    font-size: 10px;
-    background-color: #ccc;
-  }
-
 .image img{
-    size: 10px;
+    width: 1450px;
+    height: 690px;
 }
 
 .game{
@@ -17,12 +8,12 @@ html {
     top: 12mm;
     right: 20mm;
     width: 400px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     font: 20px white;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,0,0,0));
     background-color: white;
-    border-top: 2mm solid navy;
-    border-bottom: 2mm solid red;
+    border: 1mm solid black;
     padding: 10px 0;
     color: black;
 }
@@ -88,6 +79,7 @@ html {
   text-align: center;
   font: 20px white;
   line-height: 1.5mm;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,.5), rgba(0,0,0,0));
   background-color: white;
   border: .5mm solid black;
 }
@@ -101,6 +93,7 @@ html {
   text-align: center;
   font: 20px white;
   line-height: 1.5px;
+  background-image: linear-gradient(to top,rgba(0,0,0,.5), rgba(0,0,0,0));
   background-color: white;
   border: .5mm solid black;
 }
@@ -114,6 +107,7 @@ html {
   text-align: center;
   font: 20px white;
   line-height: 1.5px;
+  background-image: linear-gradient(to top,rgba(0,0,0,.5), rgba(0,0,0,0));
   background-color: white;
   border: .5mm solid black;
 }
@@ -127,6 +121,57 @@ html {
   text-align: center;
   font: 20px white;
   line-height: 1.5px;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,.5), rgba(0,0,0,0));
   background-color: white;
   border: .5mm solid black;
+}
+
+.first{
+  position: absolute;
+  top: 18mm;
+  left: 89mm;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  background: yellow;
+  border: .5mm solid black
+}
+
+.second{
+  position: absolute;
+  top: 12mm;
+  left: 82mm;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  background: yellow;
+  border: .5mm solid black
+}
+
+.third{
+    position: absolute;
+    top: 18mm;
+    left: 75mm;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    background: black;
+    border: .5mm solid black
+}
+
+.triangle{
+  position: absolute;
+  top: 25mm;
+  left: 83mm;
+  width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid black;
+}
+
+.inning{
+  position: absolute;
+  top: 20mm;
+  left: 86mm;
 }
