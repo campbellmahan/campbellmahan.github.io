@@ -25,7 +25,8 @@
   width: 45px;
   height: 35px;
   text-align: center;
-  font: 20px white;
+  font: 20px;
+  color: white;
   line-height: 0px;
   background-color: navy;
   border: .5mm solid black;
@@ -38,7 +39,8 @@
   width: 45px;
   height: 35px;
   text-align: center;
-  font: 20px white;
+  font: 20px;
+  color: white;
   line-height: 1.5px;
   background-color: red;
   border: .5mm solid black;
