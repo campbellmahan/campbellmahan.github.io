@@ -1,12 +1,21 @@
+@media screen and (max-width; 799px) {
+    .narrowScreen{
+
+    }
+}
+
 #narrowScreen{
 
 }
+
 #wideScreen{
 
 }
+
 #shortScreen{
 
 }
+
 #tallScreen{
 
 }
