@@ -57,9 +57,15 @@ body {
     grid-template-rows: 1fr 1fr;
     list-style: none;
     margin: 1px;
-    padding: 0;
+    padding: 1px;
   }
 
   .feature {
       width: 200px;
+  }
+
+  @media screen and (max-width: 500px) {
+    #grid {
+      display: flex;
+    }
   }
