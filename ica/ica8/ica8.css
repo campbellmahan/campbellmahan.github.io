@@ -6,11 +6,12 @@ body{
     width: 25vw;
     height: 20vh;
     background-color: indianred;
-    transition: background-color 2s;
+    transition: background-color 2s, rotate 2s;
 }
 
 #box1:hover{
     background-color: purple;
+    rotate: 360deg;
 }
 
 #box2{
