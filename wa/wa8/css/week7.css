@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightseagreen;
+    font-family: arial;
+}
+
+h1{
+    color: white;
+}
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: lightsalmon;
+}
+
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width:30vw;
+    height: 30vh;
+    animation-name: imgmove;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imgmove{
+    from{
+        width: 300px;
+        rotate: 0deg;
+    }
+
+    50%{
+        width: 600px;
+        height: 600px;
+        rotate: 360deg;
+    }
+
+    75%{
+        width: 600px;
+        height: 600px;
+        rotate: 360deg;
+    }
+
+    to{
+        width: 300px;
+        rotate: 0deg;
+    }
+}
+
+#red-ball{
+    background-color: lightsalmon;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    transition: background-color 2s, width 2s, height 2s;
+}
+
+#red-ball:hover{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
