@@ -37,24 +37,20 @@ img{
 @keyframes imgmove{
     from{
         width: 300px;
-        rotate: 0deg;
     }
 
     50%{
         width: 600px;
         height: 600px;
-        rotate: 360deg;
     }
 
     75%{
         width: 600px;
         height: 600px;
-        rotate: 360deg;
     }
 
     to{
         width: 300px;
-        rotate: 0deg;
     }
 }
 
