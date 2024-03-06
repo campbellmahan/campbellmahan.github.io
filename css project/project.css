@@ -71,74 +71,128 @@ nav a:hover{
     color: white;
 }
 
+
+
 #show1{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show1 p{
     font-size: 20px; 
 }
 
+#show1:hover{
+    color: #d55315;
+}
+
+
+
 #show2{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show2 p{
     font-size: 20px; 
 }
 
+#show2:hover{
+    color: #d55315;
+}
+
+
+
 #show3{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show3 p{
     font-size: 20px; 
 }
 
+#show3:hover{
+    color: #d55315;
+}
+
+
+
 #show4{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show4 p{
     font-size: 20px; 
 }
 
+#show4:hover{
+    color: #d55315;
+}
+
+
+
 #show5{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show5 p{
     font-size: 20px; 
 }
 
+#show5:hover{
+    color: #d55315;
+}
+
+
+
 #show6{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show6 p{
     font-size: 20px; 
 }
 
+#show6:hover{
+    color: #d55315;
+}
+
+
+
 #show7{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show7 p{
     font-size: 20px; 
 }
 
+#show7:hover{
+    color: #d55315;
+}
+
+
+
 #show8{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show8 p{
     font-size: 20px; 
 }
 
+#show8:hover{
+    color: #d55315;
+}
+
+
+
 #show9{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #show9 p{
     font-size: 20px; 
+}
+
+#show9:hover{
+    color: #d55315;
 }
