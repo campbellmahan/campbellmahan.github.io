@@ -72,11 +72,19 @@ nav a:hover{
 }
 
 
-
-#show1{
+.show1{
     font-size: 35px;
-
+    cursor:pointer;
 }
+    .hiddendiv{
+        display:none;
+        height:200px;
+        background-color:green;
+        }
+
+    .show1:focus + .hiddendiv{
+        display:block;
+        }
 
 #show1 p{
     font-size: 20px;
@@ -84,12 +92,8 @@ nav a:hover{
 
 #show1:hover{
     color: #d55315;
-
 }
 
-.show1des{
-    display: hide;
-}
 
 
 #show2{
