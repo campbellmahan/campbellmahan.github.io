@@ -75,6 +75,7 @@ nav a:hover{
 
 #show1{
     font-size: 35px;
+
 }
 
 #show1 p{
@@ -83,8 +84,12 @@ nav a:hover{
 
 #show1:hover{
     color: #d55315;
+
 }
 
+.show1des{
+    display: hide;
+}
 
 
 #show2{
@@ -117,6 +122,7 @@ nav a:hover{
 
 #show4{
     font-size: 35px;
+    transition: width 2s, height 2s;
 }
 
 #show4 p{
@@ -125,12 +131,15 @@ nav a:hover{
 
 #show4:hover{
     color: #d55315;
+    width: 500px;
+    height: 500px;
 }
 
 
 
 #show5{
     font-size: 35px;
+    transition: width 2s, height 2s;
 }
 
 #show5 p{
@@ -139,12 +148,15 @@ nav a:hover{
 
 #show5:hover{
     color: #d55315;
+    width: 500px;
+    height: 500px;
 }
 
 
 
 #show6{
     font-size: 35px;
+    transition: width 2s, height 2s;
 }
 
 #show6 p{
@@ -153,12 +165,15 @@ nav a:hover{
 
 #show6:hover{
     color: #d55315;
+    width: 500px;
+    height: 500px;
 }
 
 
 
 #show7{
     font-size: 35px;
+    transition: width 2s, height 2s;
 }
 
 #show7 p{
@@ -167,12 +182,15 @@ nav a:hover{
 
 #show7:hover{
     color: #d55315;
+    width: 500px;
+    height: 500px;
 }
 
 
 
 #show8{
     font-size: 35px;
+    transition: width 2s, height 2s;
 }
 
 #show8 p{
@@ -181,12 +199,15 @@ nav a:hover{
 
 #show8:hover{
     color: #d55315;
+    width: 500px;
+    height: 500px;
 }
 
 
 
 #show9{
     font-size: 35px;
+    transition: width 2s, height 2s;
 }
 
 #show9 p{
@@ -195,4 +216,6 @@ nav a:hover{
 
 #show9:hover{
     color: #d55315;
+    width: 500px;
+    height: 500px;
 }
