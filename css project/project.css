@@ -8,6 +8,7 @@ body{
 
 h1{
     color: #493a60;
+    font-size: 50px;
 }
 
 nav{
@@ -28,6 +29,7 @@ nav a{
     text-decoration: none;
     color: white;
     font-size: 25px;
+    margin: 6px;
     margin-left: 100px;
     margin-right: 100px;
 }
