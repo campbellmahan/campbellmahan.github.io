@@ -54,7 +54,7 @@ img{
     }
 }
 
-#red-ball{
+DELETE #red-ball{  
     background-color: lightsalmon;
     width: 20px;
     height:20px;
@@ -65,7 +65,7 @@ img{
     transition: background-color 2s, width 2s, height 2s;
 }
 
-#red-ball:hover{
+DELETE #red-ball:hover{
     background-color: white;
     width: 100px;
     height: 100px;
