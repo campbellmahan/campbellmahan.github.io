@@ -43,6 +43,8 @@ nav a:hover{
     color: #493a60;
     font-size: 40px;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .description{
@@ -50,6 +52,8 @@ nav a:hover{
     color: #493a60;
     font-size: 20px;
     margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #grid-parent{
@@ -68,7 +72,7 @@ nav a:hover{
 }
 
 #show1{
-
+    font-size: 40px;
 }
 
 #show1 p{
@@ -76,33 +80,65 @@ nav a:hover{
 }
 
 #show2{
+    font-size: 40px;
+}
 
+#show2 p{
+    font-size: 20px; 
 }
 
 #show3{
+    font-size: 40px;
+}
 
+#show3 p{
+    font-size: 20px; 
 }
 
 #show4{
+    font-size: 40px;
+}
 
+#show4 p{
+    font-size: 20px; 
 }
 
 #show5{
+    font-size: 40px;
+}
 
+#show5 p{
+    font-size: 20px; 
 }
 
 #show6{
+    font-size: 40px;
+}
 
+#show6 p{
+    font-size: 20px; 
 }
 
 #show7{
+    font-size: 40px;
+}
 
+#show7 p{
+    font-size: 20px; 
 }
 
 #show8{
+    font-size: 40px;
+}
 
+#show8 p{
+    font-size: 20px; 
 }
 
 #show9{
+    font-size: 40px;
+}
 
+#show9 p{
+    font-size: 20px; 
 }
