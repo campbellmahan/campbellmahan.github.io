@@ -38,47 +38,67 @@ nav a:hover{
     color: #85242f;
 }
 
-img{
-    width:30vw;
-    height: 30vh;
-    animation-name: imgmove;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
+.season{
+    text-align: center;
+    color: #493a60;
+    font-size: 40px;
+    margin-top: 50px;
 }
 
-@keyframes imgmove{
-    from{
-        width: 300px;
-    }
-
-    50%{
-        width: 600px;
-        height: 600px;
-    }
-
-    75%{
-        width: 600px;
-        height: 600px;
-    }
-
-    to{
-        width: 300px;
-    }
+.description{
+    text-align: center;
+    color: #493a60;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
-DELETE #red-ball{  
-    background-color: lightsalmon;
-    width: 20px;
-    height:20px;
-    border-radius: 50%;
-    position: absolute;
-    left:5vw;
-    top:0;
-    transition: background-color 2s, width 2s, height 2s;
+#grid-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-DELETE #red-ball:hover{
-    background-color: white;
-    width: 100px;
-    height: 100px;
+#grid-parent h1{
+    background-color: #85242f;
+    padding:3vw 5vh;
+    margin:3vw;
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+#show1{
+
+}
+
+#show2{
+
+}
+
+#show3{
+
+}
+
+#show4{
+
+}
+
+#show5{
+
+}
+
+#show6{
+
+}
+
+#show7{
+
+}
+
+#show8{
+
+}
+
+#show9{
+
 }
