@@ -81,6 +81,7 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px;
+    text-align: left;
 }
 
 #show2{
@@ -92,6 +93,7 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px;
+    text-align: left;
 }
 
 #show3{
@@ -103,6 +105,7 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px;
+    text-align: left;
 }
 
 #show4{
@@ -111,9 +114,10 @@ nav a:hover{
 
 #show4 p{
     font-size: 14px; 
-    padding: 2px;
+    padding: 1px;
     margin-left: 9px;
     margin-right: 9px;
+    text-align: left;
 }
 
 #show5{
@@ -125,10 +129,7 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px;
-}
-
-#show6{
-    font-size: 35px;
+    text-align: left;
 }
 
 #show6 p{
@@ -136,6 +137,7 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px;
+    text-align: left;
 }
 
 #show7{
@@ -147,6 +149,7 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px; 
+    text-align: left;
 }
 
 #show8{
@@ -158,6 +161,15 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px;
+    text-align: left;
+}
+
+#show8 a{
+    font-size: 12.5px; 
+    padding: 2px;
+    margin-left: 9px;
+    margin-right: 9px;
+    text-align: left;
 }
 
 #show9{
@@ -169,15 +181,16 @@ nav a:hover{
     padding: 2px;
     margin-left: 9px;
     margin-right: 9px;
+    text-align: left;
 }
 
   /* flipping card */
 
 .card {
-    background-color: transparent;
+    background-color: transparent;  
     width: 400px;
     height: 400px;
-    border: 1px solid #f1f1f1;
+    border: 5px solid transparent;
     perspective: 1000px;
   }
   
