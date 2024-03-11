@@ -230,3 +230,13 @@ nav a:hover{
     color: white;
     transform: rotateY(180deg);
   }
+
+  /* screen adjustment */
+
+@media screen and (max-width: 400px) {
+    #grid-parent {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+} 
