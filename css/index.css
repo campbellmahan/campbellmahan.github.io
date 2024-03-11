@@ -70,15 +70,6 @@ nav a:hover{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-#grid-parent h1{
-    background-color: #85242f;
-    padding:3vw 5vh;
-    margin:3vw;
-    width: 300px;
-    height: 300px;
-    color: white;
-}
-
   /* grid elements */
 
 #show1{
@@ -89,11 +80,6 @@ nav a:hover{
     font-size: 20px; 
 }
 
-#show1:hover{
-    color: #d55315;
-}
-
-
 #show2{
     font-size: 35px;
 }
@@ -101,11 +87,6 @@ nav a:hover{
 #show2 p{
     font-size: 20px; 
 }
-
-#show2:hover{
-    color: #d55315;
-}
-
 
 #show3{
     font-size: 35px;
@@ -115,112 +96,61 @@ nav a:hover{
     font-size: 20px; 
 }
 
-#show3:hover{
-    color: #d55315;
-}
-
-
 #show4{
     font-size: 35px;
-    transition: width 2s, height 2s;
 }
 
 #show4 p{
     font-size: 20px; 
 }
 
-#show4:hover{
-    color: #d55315;
-    width: 500px;
-    height: 500px;
-}
-
-
 #show5{
     font-size: 35px;
-    transition: width 2s, height 2s;
 }
 
 #show5 p{
     font-size: 20px; 
 }
 
-#show5:hover{
-    color: #d55315;
-    width: 500px;
-    height: 500px;
-}
-
-
 #show6{
     font-size: 35px;
-    transition: width 2s, height 2s;
 }
 
 #show6 p{
     font-size: 20px; 
 }
 
-#show6:hover{
-    color: #d55315;
-    width: 500px;
-    height: 500px;
-}
-
-
 #show7{
     font-size: 35px;
-    transition: width 2s, height 2s;
 }
 
 #show7 p{
     font-size: 20px; 
 }
 
-#show7:hover{
-    color: #d55315;
-    width: 500px;
-    height: 500px;
-}
-
-
 #show8{
     font-size: 35px;
-    transition: width 2s, height 2s;
 }
 
 #show8 p{
     font-size: 20px; 
 }
 
-#show8:hover{
-    color: #d55315;
-    width: 500px;
-    height: 500px;
-}
-
-
 #show9{
     font-size: 35px;
-    transition: width 2s, height 2s;
 }
 
 #show9 p{
     font-size: 20px; 
 }
 
-#show9:hover{
-    color: #d55315;
-    width: 500px;
-    height: 500px;
-}
 
   /* flipping card */
 
 .card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
   }
@@ -247,12 +177,12 @@ nav a:hover{
   }
   
   .card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #85242f;;
+    color: white;
   }
   
   .card-back {
-    background-color: dodgerblue;
+    background-color: #d55315;;
     color: white;
     transform: rotateY(180deg);
   }
