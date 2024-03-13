@@ -13,6 +13,11 @@ h1{
     font-size: 50px;
 }
 
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
   /* navigation bar */
 
 nav{
@@ -168,12 +173,10 @@ nav a:hover{
     text-align: left;
 }
 
-#show8 a{
-    font-size: 12.5px; 
-    padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+#show8 .card-back{
+    font-size: 10px;
     text-align: left;
+    color: white;
 }
 
 #show9{
