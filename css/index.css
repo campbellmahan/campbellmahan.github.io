@@ -17,27 +17,27 @@ h1{
   /* navigation bar */
 
 nav{
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height:40px;
-    width: 1500px;
     background-color: #d55315;
     position: sticky;
-    top: 0;
+    top: 0px;
+    padding: .5em;
+    width: 1890px;
 }
 
-nav a{
-    width:10vw;
-    text-align: center;
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    color: #fff;
     text-decoration: none;
-    color: white;
-    font-size: 25px;
-    margin: 6px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
+    padding: .5em 1em;
+    font-size: 20px;
+  }
 
 nav a:hover{
     color: #85242f;
@@ -353,8 +353,8 @@ nav a:hover{
   /* screen adjustment */
 
   @media screen and (max-width: 400px) {
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-    } 
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+} 
