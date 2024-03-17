@@ -5,12 +5,13 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    font-family: arial;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
     color: #493a60;
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
   /* navigation bar */
@@ -40,6 +41,7 @@ nav a{
 
 nav a:hover{
     color: #85242f;
+    text-decoration: underline;
 }
 
   /* description */
@@ -66,22 +68,26 @@ nav a:hover{
 
 #grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
   /* grid elements */
 
 #show1{
-    font-size: 35px;
+    font-size: 50px;
 }
 
 #show1 p{
-    font-size: 14px; 
+    font-size: 20px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+}
+
+#p1{
+    font-size: 100px;
 }
 
 #show2{
@@ -190,8 +196,8 @@ nav a:hover{
 
 .card {
     background-color: transparent;  
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 5px solid transparent;
     perspective: 1000px;
   }
