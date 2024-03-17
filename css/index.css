@@ -69,7 +69,6 @@ nav a:hover{
 #grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
   /* grid elements */
@@ -354,10 +353,8 @@ nav a:hover{
   /* screen adjustment */
 
   @media screen and (max-width: 400px) {
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-} 
-
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    } 
