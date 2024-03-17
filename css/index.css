@@ -74,122 +74,238 @@ nav a:hover{
 
   /* grid elements */
 
-#show1{
-    font-size: 50px;
+#show1 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show1 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show1 p{
-    font-size: 20px; 
+    font-size: 16px; 
     padding: 2px;
     margin-left: 15px;
     margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#p1{
-    font-size: 100px;
+#show2 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
 }
 
-#show2{
-    font-size: 35px;
+#show2 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show2 p{
-    font-size: 14px; 
+    font-size: 16px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#show3{
-    font-size: 35px;
+#show3 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show3 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show3 p{
-    font-size: 14px; 
+    font-size: 16px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#show4{
-    font-size: 35px;
+#show4 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show4 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show4 p{
-    font-size: 14px; 
+    font-size: 16px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#show5{
-    font-size: 35px;
+#show5 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show5 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show5 p{
-    font-size: 14px; 
+    font-size: 16px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#show6{
-    font-size: 35px;
+#show6 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show6 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show6 p{
-    font-size: 14px; 
+    font-size: 16px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#show7{
-    font-size: 35px;
+#show7 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show7 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show7 p{
-    font-size: 14px; 
+    font-size: 16px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px; 
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#show8{
-    font-size: 35px;
+#show8 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show8 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show8 p{
     font-size: 14px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
-#show8 .card-back{
-    font-size: 10px;
-    text-align: left;
+#show9 h1{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
     color: white;
 }
 
-#show9{
-    font-size: 35px;
+#show9 h2{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 15px;
 }
 
 #show9 p{
-    font-size: 14px; 
+    font-size: 16px; 
     padding: 2px;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: left;
+    line-height: 23px;
 }
 
   /* flipping card */
