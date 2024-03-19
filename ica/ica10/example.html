@@ -7,14 +7,17 @@
     <script src="ica10.js"></script>
 </head>
 <body>
-    <body style="text-align:center;">
         <h1> Welcome to my page!</h1>
      
         <button onclick="myFunc()">
             Press me!
         </button>
+
+        <h2 id="prank"></h2>
     
         <script>
+
+            let result = document.getElementById("prank");
      
             function changeColor(color) {
                 document.body.style.background = color;
@@ -22,22 +25,18 @@
      
             function myFunc() {
                 changeColor('pink');
+                result.innerHTML = "Boohoo, you get pink!";
             }        
         </script>
-
-        <button onclick="newFunc()">
-            No, press me!
-        </button>
-
+        
         <script>
 
-            function changeText() {
-                heading.textContent = 'Hello!'
-            }
+        const button = document.querySelector("button");
+        button.addEventListener('click', runFunction);
 
-            function newFunc() {
-                changeText()
-            }
+        function runFunction() {
+            const name = prompt("What is your favorite color?");
+        }
         </script>
 
     </body>
