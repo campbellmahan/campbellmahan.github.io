@@ -8,19 +8,40 @@
 </head>
 <body>
     <p> Hello world</p>
-    <button type="button"> don't press me!</button>
+    <button type="button"> Press me</button>
     <script>
-        const x = 'hello!';
-        console.log(x)
 
         const button = document.querySelector("button");
         button.addEventListener('click', runFunction);
 
         function runFunction() {
-            // console.log("test");
-            const name = prompt("Please enter a name");
-            button.textContent = 'Player 1: S{name}'
+            const name = prompt("What is your favorite color?");
         }
     </script>
+
+    <button type="circle"> No, press me</button>
+    <script>
+
+        const button = document.querySelector("circle");
+        button.addEventListener('click', changeText);
+        
+        const heading = document.querySelector("h1");
+        function changeText() {
+            heading.textContent = 'hi!';
+        }
+    </script>
+
+const button2 = document.getElementById("button2");
+button2.addEventListener('click', popUp);
+
+const heading = document.querySelector("h1")
+
+function popUp() {
+    const head = prompt("tell me a secret");
+    heading.textContent = head;
+}
+
+
+
 </body>
 </html>

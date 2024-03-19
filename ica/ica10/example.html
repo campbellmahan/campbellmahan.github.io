@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ica10.js"></script>
+</head>
+<body>
+    <body style="text-align:center;">
+        <h1> Welcome to my page!</h1>
+     
+        <button onclick="myFunc()">
+            Press me!
+        </button>
+    
+        <script>
+     
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+     
+            function myFunc() {
+                changeColor('pink');
+            }        
+        </script>
+
+        <button onclick="newFunc()">
+            No, press me!
+        </button>
+
+        <script>
+
+            function changeText() {
+                heading.textContent = 'Hello!'
+            }
+
+            function newFunc() {
+                changeText()
+            }
+        </script>
+
+    </body>
+</body>
+</html>
