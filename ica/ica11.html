@@ -48,11 +48,15 @@
             body.appendChild(panel);
 
             const msg = document.createElement("p");
-            mag.textContent = msgText;
+            msg.textContent = msgText; // Corrected typo here
+            panel.appendChild(msg); // Changed from closeBtn to msg
+
+            const closeBtn = document.createElement("button"); // Added closeBtn definition
+            closeBtn.textContent = "Close";
             panel.appendChild(closeBtn);
 
             closeBtn.addEventListener("click", () =>
-            panel.parentNode.removeChild(panel), 
+            panel.parentNode.removeChild(panel)
             );
 
             if (msgType === "warning") {
@@ -67,16 +71,13 @@
 
         }
 
-       // const btn = document.querySelector("button").addEventListener("click", displayMessage);
-       const btn = document.quereySelector("button");
+       const btn = document.querySelector("button"); // Corrected typo here
+       btn.addEventListener("click", () => displayMessage(userInput(), "warning")); // Changed from "warning" to "userInput()"
 
        function userInput() {
         let text = prompt("Enter a message!");
         return(text);
        }
-
-       btn.addEventListner("click", () => displayMessage("warning")
-       );
        
     </script>
   </body>
