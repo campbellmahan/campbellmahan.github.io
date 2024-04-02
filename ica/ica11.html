@@ -37,10 +37,7 @@
 
     <script>
 
-        const btn = document.querySelector("button");
-        btn.addEventListener("click", displayMessage);
-
-        function displayMessage() {
+        function displayMessage(msgText, msgType) {
             const body = document.body;
 
             const panel = document.createElement("div");
@@ -48,7 +45,7 @@
             body.appendChild(panel);
 
             const msg = document.createElement("p");
-            msg.textContent = "this is a message box";
+            mag.textContent = msgText;
             panel.appendChild(closeBtn);
 
             closeBtn.addEventListener("click", () =>
@@ -57,6 +54,17 @@
 
         }
 
+       // const btn = document.querySelector("button").addEventListener("click", displayMessage);
+       const btn = document.quereySelector("button");
+
+       function userInput() {
+        let text = prompt("Enter a message!");
+        return(text);
+       }
+
+       btn.addEventListner("click", () => displayMessage("Woo, this is a different message!")
+       );
+       
     </script>
 
 
