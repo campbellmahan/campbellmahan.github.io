@@ -1,9 +1,6 @@
 const btn = document.querySelector("#js-new-quote");
 btn.addEventListener('click', getQuote);
 
-const answerBtn = document.querySelector("#js-tweet");
-answerBtn.addEventListener('click', getAnswer);
-
 const answerText = document.querySelector("#js-answer-text");
 
 const endpoint = 'https://api.quotable.io/random';
@@ -31,9 +28,9 @@ async function getQuote() {
 }
 
 function displayQuote(quote, author) {
-    const quoteText = document.querySelector("#js-quote-text");
-    const authorText = document.querySelector("#js-author-text"); // Add this line to select the author element
-    quoteText.textContent = quote;
+    const mainQuoteText = document.querySelector("#js-main-quote-text"); // Updated ID
+    const authorText = document.querySelector("#js-author-text");
+    mainQuoteText.textContent = quote;
     authorText.textContent = `- ${author}`; // Display author with a dash prefix
 }
 
