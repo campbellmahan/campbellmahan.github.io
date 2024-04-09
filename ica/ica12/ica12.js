@@ -1,5 +1,5 @@
 const btn = document.querySelector("#js-new-quote");
-btn.addEventListener('click', newQuote);
+btn.addEventListener('click', getQuote);
 
 const answerBtn = document.querySelector("#js-tweet");
 btn.addEventListener('click', getAnswer);
@@ -10,20 +10,20 @@ const endpoint = 'https://trivia.cyberwisp.com/getrandomchristmasquestion';
 
 let answer = '';
 
-async function newQuote() {
+async function getQuote() {
     // console.log("Test"); 
     try {
         const response = await fetch (endpoint);
         if(!response.ok) {
-            throw Error(response.ststausText)
+            throw Error(response.statusText)
         }
 
         const json = await response.json();
         console.log(json['question']);
         displayQuote(json['question']);
         console.log(json['answer']);
-        answer = json('answer');
-        answerText,textContent = '';
+        answer = json['answer'];
+        answerText.textContent = '';
     } catch (err) {
         console.log (err);
         alert('Failed to fetch new quote');
@@ -40,3 +40,4 @@ function getAnswer() {
 }
 
 getQuote();
+getAnswer();
