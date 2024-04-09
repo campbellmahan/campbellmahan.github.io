@@ -2,7 +2,7 @@ const btn = document.querySelector("#js-new-quote");
 btn.addEventListener('click', getQuote);
 
 const answerBtn = document.querySelector("#js-tweet");
-btn.addEventListener('click', getAnswer);
+answerBtn.addEventListener('click', getAnswer);
 
 const answerText = document.querySelector("#js-answer-text");
 
@@ -36,7 +36,7 @@ function displayQuote(quote) {
 }
 
 function getAnswer() {
-    answerText.textContext = answer; 
+    answerText.textContent = answer; 
 }
 
 getQuote();
