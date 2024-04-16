@@ -27,8 +27,8 @@ button:hover {
 }
 
 .ball {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: red;
     border-radius: 50%;
     position: absolute;
