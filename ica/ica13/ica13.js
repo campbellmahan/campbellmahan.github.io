@@ -34,4 +34,58 @@ class Ball {
     ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
     ctx.fill();
   }
+
+  update() {
+    // this.x = this.x + this.velX;
+    // this.y = this.y + this.velY;
+
+    if ((this.x + this.size) >= width) {
+      this.velX = -(this.velX);
+    }
+
+    if ((this.x - this.size) <= 0) {
+      this.velX = -(this.velX);
+    }
+
+    if ((this.y + this.size) >= height) {
+      this.velY = -(this.velY);
+    }
+
+    if ((this.y - this.size) <= 0) {
+      this.velY = -(this.velY);
+    }
+
+    this.x += this.velX;
+    this.y += this.velY;
+  }
 }
+
+const balls = [];
+
+while (balls.length < 10) {
+  const size = random(1,50);
+  const ball = new Ball (
+    random(0 + size, width - size), 
+    random (0 + size, height -size), 
+    random(-10, 10), 
+    random(-10, 10),
+    randomRGB(), 
+    size, 
+  );
+
+  balls.push(ball);
+}
+
+function loop () {
+  ctx.fillStyle = "rgb(0 0 0 / 25%)";
+  ctx.fillRect(0,0, width, height); 
+
+  for (const ball of balls) {
+    ball.draw(); 
+    ball.update(); 
+  }
+
+  requestAnimationFrame(loop);
+}
+
+loop();
