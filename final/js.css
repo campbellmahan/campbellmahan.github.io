@@ -27,10 +27,20 @@ button:hover {
 }
 
 .ball {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     background-color: red;
     border-radius: 50%;
     position: absolute;
     border: dashed white; 
+}
+
+.ball p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 40px;
+    font-family: Arial, sans-serif; 
 }
