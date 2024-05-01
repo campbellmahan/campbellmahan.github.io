@@ -4,11 +4,13 @@
     color: red;
     width: 100vw;
     height: 100vh;
+    font-family: Arial, sans-serif; 
 }
 
 .volume-display {
     font-size: 24px;
     margin-bottom: 20px;
+    font-family: Arial, sans-serif; 
 }
 
 button {
@@ -20,6 +22,7 @@ button {
     display: inline-block; 
     font-size: 16px; 
     margin: 4px 2px; 
+    font-family: Arial, sans-serif; 
 }
 
 button:hover {
@@ -36,6 +39,7 @@ button, input[type="submit"] {
     font-size: 16px;
     margin: 4px 2px;
     margin-top: 20px;
+    font-family: Arial, sans-serif; 
 }
 
 button:hover, input[type="submit"]:hover {
@@ -59,4 +63,5 @@ button:hover, input[type="submit"]:hover {
     color: white; 
     font-size: 40px;
     font-family: Arial, sans-serif; 
+    text-align: center;
 }

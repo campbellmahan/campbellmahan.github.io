@@ -6,11 +6,15 @@ function updateVolumeDisplay() {
 
 const phrases = [
     "Better luck next time",
-    "You're bad at this",
     "Change the volume already", 
     "Boo hoo",
-    "Make it louder",
-    "That's too loud.. quieter",
+    "Nice try",
+    "Keep going",
+    "You're almost there",
+    "Volume adjustment in progress...",
+    "Nearly perfect",
+    "Maybe give up",
+    "Just a bit more"
 ];
 
 function createBall() {
