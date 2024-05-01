@@ -56,3 +56,15 @@ function muteVolume() {
     console.log("Volume muted. Shhh...");
     createBall();
 }
+
+function resetScreen() {
+    currentVolume = 50;
+    updateVolumeDisplay();
+
+    document.getElementById("balls-container").innerHTML = "";
+}
+
+function confirmVolume() {
+    const confirmed = confirm(`Are you sure you want to set the volume to ${currentVolume}?`);
+    return confirmed;
+}

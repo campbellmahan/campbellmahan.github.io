@@ -13,6 +13,13 @@
         <button onclick="increaseVolume()">Increase Volume</button>
         <button onclick="decreaseVolume()">Decrease Volume</button>
         <button onclick="muteVolume()">Mute</button>
+        <button onclick="resetScreen()">Reset Screen</button>
+        
+        <div class="confirm-button">
+            <form onsubmit="return confirmVolume()">
+                <input type="submit" value="Set Volume">
+            </form>
+        </div>
     </div>
     <div id="balls-container"></div>
 

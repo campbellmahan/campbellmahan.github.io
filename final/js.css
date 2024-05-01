@@ -3,7 +3,7 @@
     background-color: pink;
     color: red;
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
 }
 
 .volume-display {
@@ -23,6 +23,22 @@ button {
 }
 
 button:hover {
+    background-color: palevioletred;
+}
+
+button, input[type="submit"] {
+    background-color: red;
+    border: dashed;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20px;
+}
+
+button:hover, input[type="submit"]:hover {
     background-color: palevioletred;
 }
 
