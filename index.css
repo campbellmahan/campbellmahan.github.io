@@ -1,0 +1,124 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px; /* Increased height */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+.nav-logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Fullscreen Square */
+.main-image {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray; /* Placeholder color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Split Squares Container */
+.split-images {
+    display: flex;
+    width: 100vw;
+    height: 50vh; /* Adjust height as needed */
+}
+
+/* Smaller Squares */
+.split-image {
+    flex: 1;
+    background-color: gray; /* Placeholder color */
+    border: 1px solid #000; /* Optional: Add borders for better visibility */
+}
+
+/* Content Padding */
+.content {
+    padding-top: 80px; /* Adjust padding to match the height of the navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text Section */
+.text-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for text section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-section p {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    text-align: center;
+    padding: 20px; /* Padding around the text */
+}
+
+/* Small Image Grid */
+.small-image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 10px; /* Gap between grid items */
+    width: 100vw;
+    padding: 20px;
+    background-color: #fafafa; /* Background color for grid section */
+}
+
+.small-image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
