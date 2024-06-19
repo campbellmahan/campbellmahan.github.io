@@ -79,14 +79,21 @@ body {
     flex: 1;
     background-color: gray; /* Placeholder color */
     border: 1px solid #000; /* Optional: Add borders for better visibility */
+    position: relative; /* Make the container position relative for absolute positioning of text */
 }
 
-/* Content Padding */
-.content {
-    padding-top: 80px; /* Adjust padding to match the height of the navbar */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Overlay Text */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0); /* Optional: add background for better readability */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* Text Section */
